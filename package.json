@@ -1,0 +1,33 @@
+{
+  "name": "twitter-name",
+  "version": "1.0.0",
+  "description": "Check whether username is available on Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatfreaker/twitter-name.git"
+  },
+  "keywords": [
+    "twitter",
+    "username",
+    "available",
+    "availability",
+    "check",
+    "cli",
+    "utility",
+    "handle"
+  ],
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "http://beatfreaker.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatfreaker/twitter-name/issues"
+  },
+  "homepage": "https://github.com/beatfreaker/twitter-name#readme"
+}
