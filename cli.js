@@ -5,7 +5,7 @@ var meow = require('meow');
 var twitterName = require('./');
 
 var cli = meow({
-	head: [
+	help: [
 		'Usage',
 		' > twitter-name <name>',
 		'',
