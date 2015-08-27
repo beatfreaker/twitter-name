@@ -12,7 +12,7 @@ module.exports = function (userName, callback) {
 		}
 		var jsonArray = JSON.parse(data);
 		if (jsonArray.length === 0) {
-			callbakc(null, true);
+			callback(null, true);
 			return;
 		}
 		callback(null, false);
