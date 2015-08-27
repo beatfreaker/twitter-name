@@ -34,5 +34,7 @@ Examples
 	> twitter-name chintsradia
 	✖ Unavailable
 ```
+Note: This utility uses unofficial twitter API.
+
 ## License
 MIT © [Chintan Radia](https://beatfreaker.github.io/)
