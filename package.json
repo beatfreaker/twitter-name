@@ -4,7 +4,7 @@
   "description": "Check whether username is available on Twitter",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && node test.js"
   },
   "repository": {
     "type": "git",
