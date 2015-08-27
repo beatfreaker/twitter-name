@@ -11,6 +11,10 @@ module.exports = function (userName, callback) {
 			return;
 		}
 		var jsonArray = JSON.parse(data);
-		jsonArray.length ? callback(null, true) : callback(null, false);
+		if (jsonArray.length === 0) {
+			callbakc(null, true);
+			return;
+		}
+		callback(null, false);
 	});
 };
