@@ -4,12 +4,13 @@
   "description": "Check whether username is available on Twitter",
   "main": "index.js",
   "scripts": {
-    "test": "xo && node test.js"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/beatfreaker/twitter-name.git"
   },
+  "bin": "cli.js",
   "keywords": [
     "twitter",
     "username",
@@ -20,6 +21,10 @@
     "utility",
     "handle"
   ],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "author": {
     "name": "Chintan Radia",
     "email": "radiachints1512@gmail.com",
@@ -29,5 +34,14 @@
   "bugs": {
     "url": "https://github.com/beatfreaker/twitter-name/issues"
   },
-  "homepage": "https://github.com/beatfreaker/twitter-name#readme"
+  "homepage": "https://github.com/beatfreaker/twitter-name#readme",
+  "dependencies": {
+    "got": "^4.1.1",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "xo": "^0.7.1"
+  }
 }
